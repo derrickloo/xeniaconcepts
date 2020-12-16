@@ -12,7 +12,7 @@ a {
 }
 .Hero {
   background: url('../images/xc-wallpaper-01.jpg');
-  padding-top: 300px;
+  padding-top: 320px;
   padding-bottom: 100px;
   background-size: cover;
   background-position: center;
@@ -27,6 +27,7 @@ a {
 
 .Hero p {
   color: white;
+  font-size: 24px;
   font-weight: 300;
 }
 
@@ -35,10 +36,27 @@ a {
   width: 75%;
 }
 
+.HeroContentGroup {
+  width: 75%;
+}
 
 .HeroGroup a {
   font-size: 16px;
   text-transform: uppercase;
   padding: 12px 20px;
   border: 1px solid white;
+}
+
+@media (max-width: 640px) {
+  .Hero {
+    padding-top: 160px;
+  }
+
+  .Hero h1 {
+    font-size: 40px;
+  }
+
+  .Hero p {
+    font-size: 20px;
+  }
 }
