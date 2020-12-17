@@ -19,6 +19,13 @@
     font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
+    border-bottom: 2px solid rgba(255,255,255,0);
+    transition: 0.9s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Header a:hover {
+    color: rgba(255,255,255,0.72);
+    border-bottom: 2px solid #ef413d;
 }
 
 @media (max-width: 640px) {
