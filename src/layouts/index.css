@@ -61,6 +61,45 @@ a {
   width: 75%;
 }
 
+.About {
+  padding: 80px 0;
+  background: linear-gradient(104deg, #FF8B6F 0%, #E25050 100%); 
+}
+
+.AboutGroup {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0 40px;
+}
+
+.Vision {
+  background: url('../images/xc-wallpaper-02.jpg');
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: multiply;
+  padding-top: 80px;
+  padding-bottom: 500px;
+  background-size: cover;
+  background-position: top center;
+}
+.VisionGroup {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0 40px;
+}
+.Vision h3 {
+  color: white;
+  width: 75%;
+  text-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.About h2, h3 {
+  color: white;
+}
+
+.About h3 {
+  font-weight: 300;
+}
+
 .Cards {
   max-width: 980px;
   padding: 60px 40px;
@@ -72,16 +111,27 @@ a {
   color: #ef413d;
 }
 
-.CardGroup {
+.CardGroup1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
   align-items: center;
+  justify-items: center;
+  padding-bottom: 40px;
 }
+
+.CardGroup2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
 @media (max-width:1020px) {
-  .CardGroup {
+  .CardGroup1, .CardGroup2 {
     grid-template-columns: repeat(1, auto);
     justify-items: center;
+    padding-bottom: 0px;
   }
 }
 
@@ -100,6 +150,14 @@ a {
   }
 
   .HeroContentGroup {
+    width: 100%;
+  }
+  .Vision {
+    padding-top: 40px;
+    padding-bottom: 280px;
+  }
+  .Vision h3 {
+    font-size: 24px;
     width: 100%;
   }
 }
