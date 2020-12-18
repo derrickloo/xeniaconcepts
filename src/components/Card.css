@@ -1,0 +1,29 @@
+.Card {
+    width: 260px;
+    height: 380px;
+    border-radius: 16px;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 112px 60px auto;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.Card:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+.Card img {
+    margin: 0 auto;
+}
+
+.Card h3 {
+    max-width: 276px;
+    text-align: center;
+    font-weight: 300;
+    color: #777777;
+}
+
+.Card p {
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+}

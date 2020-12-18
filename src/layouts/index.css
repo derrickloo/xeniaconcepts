@@ -61,6 +61,29 @@ a {
   width: 75%;
 }
 
+.Cards {
+  max-width: 980px;
+  padding: 60px 40px;
+  margin: 0 auto;
+}
+
+.Cards h2 {
+  text-align: center;
+  color: #ef413d;
+}
+
+.CardGroup {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  align-items: center;
+}
+@media (max-width:1020px) {
+  .CardGroup {
+    grid-template-columns: repeat(1, auto);
+    justify-items: center;
+  }
+}
 
 @media (max-width: 640px) {
   .Hero {
