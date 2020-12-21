@@ -30,7 +30,7 @@ class Header extends React.Component {
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
         <div className="HeaderGroup">
         <Link to="/"><img src={require("../images/xenia-concepts-logo-white.png")} width="160" /></Link>
-          <Link to="#" className="navigation">About Us</Link>
+          <Link to="/about" className="navigation">About Us</Link>
           <Link to="#" className="navigation">Services</Link>
           <Link to="#" className="navigation">Partners</Link>
           <Link to="#"><button>Contact</button></Link>
