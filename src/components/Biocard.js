@@ -4,6 +4,8 @@ import styled from 'styled-components'
 const BioGroup = styled.div `
     display: grid;
     grid-template-columns: 200px auto;
+    padding: 24px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
 
     @media (max-width: 720px) {
         grid-template-columns: repeat(1, 1fr);
