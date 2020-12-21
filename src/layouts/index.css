@@ -127,6 +127,31 @@ a {
   justify-items: center;
 }
 
+.Bio {
+  padding: 60px 40px;
+}
+.BioGroup {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.Bio h1 {
+  color: #ef413d;
+}
+.Bio h3 {
+  color: black;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 1.2;
+}
+.BioTitleGroup {
+  padding: 0 0 20px;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.BioCardGroup {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+}
+
 @media (max-width:1020px) {
   .CardGroup1, .CardGroup2 {
     grid-template-columns: repeat(1, auto);
