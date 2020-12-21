@@ -26,7 +26,7 @@ const FooterSectionGroup = styled.div `
 const FooterColumnGroup = styled.div `
     display: grid;
     grid-template-rows: 48px auto;
-    h4 {font-size: 16px; font-weight: 400;}
+    h4 {font-size: 18px; font-weight: 500;}
     p {font-size: 14px; line-height: 28px; font-weight: 300;}
 `
 
