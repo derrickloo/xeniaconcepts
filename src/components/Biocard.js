@@ -8,7 +8,7 @@ const BioGroup = styled.div `
     padding: 48px 0;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 
-    img { width: 200px;}
+    img { width: 200px; border-radius: 100px;}
 
     @media (max-width: 720px) {
         grid-template-columns: repeat(1, 1fr);
