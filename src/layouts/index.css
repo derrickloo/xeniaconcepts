@@ -134,13 +134,15 @@ a {
   max-width: 900px;
   margin: 0 auto;
 }
-.Bio h1 {
+.BioGroup h1 {
   color: #ef413d;
+  font-size: 32px;
+  font-weight: 600;
 }
-.Bio h3 {
-  color: black;
-  font-weight: 300;
-  font-size: 28px;
+.BioTitleGroup p {
+  color: #5b5b5b;
+  font-weight: 400;
+  font-size: 36px;
   line-height: 1.2;
 }
 .BioTitleGroup {

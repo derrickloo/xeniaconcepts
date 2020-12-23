@@ -4,8 +4,11 @@ import styled from 'styled-components'
 const BioGroup = styled.div `
     display: grid;
     grid-template-columns: 200px auto;
-    padding: 24px 0;
+    grid-gap: 20px;
+    padding: 48px 0;
     border-bottom: 1px solid rgba(0,0,0,0.2);
+
+    img { width: 200px;}
 
     @media (max-width: 720px) {
         grid-template-columns: repeat(1, 1fr);
@@ -25,8 +28,9 @@ const BioName = styled.h2 `
     }
 `
 const BioTitle = styled.h3 `
-    color: #ef413d !important;
-    font-size: 28px;
+    color: rgba(224,43,32,0.65) !important;
+    font-size: 24px;
+    font-weight: 500 !important;
     margin: 0 0;
     padding-bottom: 12px;
 
