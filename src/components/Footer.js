@@ -48,8 +48,8 @@ const Footer = () => (
         <FooterSectionGroup>
             <FooterColumnGroup><h4>By Category</h4>
                 <p><a href="/about" >About Us</a><br />
-                <a href="#" >Services</a><br />
-                <a href="#" >Partners</a></p>
+                <a href="/services" >Services</a><br />
+                <a href="/partners" >Partners</a></p>
             </FooterColumnGroup>
             <FooterColumnGroup><h4>Contact Us</h4>
                 <p>Goldhill Plaza, #03-39<br />Singapore 308899<br />
